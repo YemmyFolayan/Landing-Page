@@ -1,0 +1,224 @@
+*{
+    box-sizing : border-box;
+}
+body {
+    box-sizing: border-box;
+    padding-top: 2%;
+    background-color: whitesmoke;
+    font-family: open sans-serif;
+    font-weight: 400, 700;
+}
+header{
+    width : 100%;
+    clear : both;
+}
+/* .midText{
+    text-align: center;
+} */
+
+
+
+#mail{
+    border: 0;
+    width: 180px;
+    height: 30px;
+    
+    
+}
+
+#button2{
+    float: right;
+}
+
+#button,#button2{
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    width: 170px;
+    height: 30px;
+}
+
+/* headings */
+h3{
+    font-family: Verdana,Tahoma, sans-serif; /*https://fonts.google.com/specimen/Poppins */
+    font-weight: 400,600,700;
+}
+
+
+div.user{
+    width: 100%;
+    display: inline-block;
+}
+div.user1{
+    width: 30%;
+    /* box-sizing: content-box; */
+    /* width: 150px;
+    height: 100px; */
+    float: left;
+}
+div.user1 img{
+    width : 100%;
+}
+body div.container{
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : wrap;
+    width : 80%;
+    margin : auto;
+    margin-top : 3em;
+} 
+
+body #logo1{
+    float: left;
+}
+body div.container div.midText, body div.container div.imgText{
+    flex : 60%;
+    text-align : center;
+    width : 600px;
+}
+body div.container div.midText {
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    align-content : center;
+    align-items : center;
+}
+body div.container div img{
+    width : 100%;
+}
+div.user2{
+    width: 40%;
+    float: right;
+}
+/* INSTEAD OF FLOAT; YOU CAN USE
+FLEX-BOX OR CSS GRID */
+
+div.border{
+    width: 450px;
+    height: 180px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 2px 2px 10px rgb(185,181,181);
+    border-radius : 5px;
+    /* display : flex;
+    justify-content : center;
+    flex-direction : column;
+    align-content : center;
+    align-items : center; */
+
+     
+}
+
+.Textinborder{
+    padding: 2em;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.904);
+    background-color: rgb(5, 63, 63);
+    padding: 1em;
+}
+
+
+footer div.huddle_white{
+
+    padding-right: 2em;
+    padding-bottom: 2em;
+    color: #FFFFFF;
+    float: unset;
+}
+
+footer div.container{
+    width: 100%;
+    display: inline-block;
+}
+
+
+footer div.huddle{
+    width: 25%;
+    /* padding: 1em; */
+    float: left;
+}
+
+footer div.about_us{
+    width: 25%;
+    float: left;
+    /* padding: 1em; */
+    font-size: 20px;
+}
+
+footer div.career{
+    width: 25%;
+    float: left;
+    /* padding: 1em; */
+    font-size: 20px;
+}
+
+footer div.subscribe{
+    width: 25%;
+    float: right;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* main div.container-item-list {
+    background-color: rgb(255, 81, 0);
+}
+
+main div.container-item-list span.span {
+    display: inline-block;
+    width: 70%;
+}
+
+main div.container-item-list label {
+    color: black;
+}
+
+main div.container-item-list p {
+    background-color: rgb(109, 43, 12);
+    padding: 1em;
+    color: white;
+}
+
+main div.container-item-list p label {
+    color: white;
+}
+
+main div.container-item h5 {
+    color: white;
+}
+
+.input-field input[type=text]::placeholder {
+    color: rgb(150, 148, 148);
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(255, 81, 0) !important;
+    box-shadow: 0 1px 0 0 rgb(255, 81, 0) !important;
+    color: white !important;
+}
+
+input[type='button'],
+input[type='button']:active, */
+
+
+
+
+
+  
+ul {
+    
+    display:flex;
+  }
+#social{
+    padding: 0.5px;
+}
+
+  
